@@ -297,7 +297,7 @@ html {
         height: 10px;
     }
     #img__album{
-        width: 200px;
+        width: 10rem;
     }
     
 }
@@ -328,7 +328,7 @@ html {
 
 @media screen and (max-width: 964px) {
     .img__logo_png{
-        width: 250px;
+        width: 15rem;
     }
     .imgs__apps{
         align-items: center;
@@ -337,7 +337,7 @@ html {
         font-size: 4rem;
     }
     #img__album {
-        width: 20rem;
+        width: 15rem;
     }
 }
 
