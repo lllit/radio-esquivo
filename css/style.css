@@ -11,8 +11,9 @@ html {
     font-family: 'Poppins', 'Roboto', sans-serif;
     background-color: var(--bg);
     color: var(--text-principal);
-    overflow: hidden;
-
+    overflow-y: auto;
+    overflow-x: hidden !important;
+    box-sizing: border-box;
 }
 
 .cnt__general {
@@ -76,7 +77,27 @@ html {
 
 }
 
-.cnt__info{
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.cnt__info {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -89,17 +110,17 @@ html {
     font-size: 17px;
 }
 
-#img__album{
+#img__album {
     border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
 
-.text__tema__actual{
+.text__tema__actual {
     text-align: center;
 }
 
-.boton{
+.boton {
     width: 50px;
     height: 50px;
     font-size: 28pt;
@@ -111,10 +132,10 @@ html {
     background-color: transparent;
     cursor: pointer;
     transition: 1s;
-    
+
 }
 
-.boton:hover{
+.boton:hover {
     opacity: 0.7;
 }
 
@@ -145,7 +166,7 @@ html {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
-.img__logo{
+.img__logo {
     width: 100%;
     position: absolute;
     top: 20px;
@@ -154,23 +175,23 @@ html {
     justify-content: start;
     align-items: center;
     gap: 0;
-   
+
 }
 
 .img__logo_png {
-    width: 400px; 
+    width: 400px;
     height: auto;
-    object-fit: contain; 
+    object-fit: contain;
     background: none;
 }
 
 
-.nombre__radio{
+.nombre__radio {
     font-weight: bold;
     font-size: 1.3rem;
 }
 
-.imgs__apps{
+.imgs__apps {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -179,21 +200,22 @@ html {
     top: 50px;
     right: 28px;
     z-index: 10;
-    
-    
+
+
 }
 
-.imgs__icon a{
+.imgs__icon a {
     color: var(--text-principal);
     transition: 1s;
 }
-.imgs__icon a:hover{
+
+.imgs__icon a:hover {
     opacity: 0.7;
 }
 
 
 
-.redes{
+.redes {
     display: flex;
     width: 100%;
     position: absolute;
@@ -201,12 +223,12 @@ html {
     align-items: center;
     bottom: 1rem;
     z-index: 10;
-    
+
 }
 
 
 
-.redes ul{
+.redes ul {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -214,11 +236,13 @@ html {
     gap: 1rem;
     padding: 0;
 }
+
 .redes ul li a {
     color: var(--text-principal);
     text-decoration: none;
     transition: 1s;
 }
+
 .redes ul li a:hover {
     opacity: 0.7;
 }
@@ -231,7 +255,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .wsp {
@@ -239,14 +263,15 @@ html {
     bottom: 1.7rem;
     right: 1.7rem;
     z-index: 999;
-    animation:animated_wsp 3s ease infinite;
+    animation: animated_wsp 3s ease infinite;
 }
 
-.wsp a{
+.wsp a {
     text-decoration: none;
     color: var(--text-principal);
     padding: 0;
 }
+
 .wsp a i {
     display: flex;
     padding: 0;
@@ -254,7 +279,7 @@ html {
     transition: 0.3s;
 }
 
-.wsp a i:hover{
+.wsp a i:hover {
     opacity: 0.7;
 }
 
@@ -274,73 +299,82 @@ html {
 
 
 
-@media screen and (max-width:449px){
-    .img__logo_png{
+@media screen and (max-width:449px) {
+    .img__logo_png {
         display: none;
     }
-    .nombre__radio{
+
+    .nombre__radio {
         display: none;
     }
-    .redes ul li a i{
+
+    .redes ul li a i {
         width: 10px;
         height: 10px;
     }
-    .wsp a i{
+
+    .wsp a i {
         font-size: 1.3rem;
     }
-    .animacion{
+
+    .animacion {
         bottom: 0.1rem;
         left: 0.2rem;
     }
-    .gif{
+
+    .gif {
         width: 10px;
         height: 10px;
     }
-    #img__album{
+
+    #img__album {
         width: 10rem;
     }
-    
+
 }
 
-@media screen and (max-width:529px){
-    .img__logo_png{
+@media screen and (max-width:529px) {
+    .img__logo_png {
         width: 300px;
     }
-    .nombre__radio{
+
+    .nombre__radio {
         font-size: 2.6rem;
     }
-    #img__album{
+
+    #img__album {
         width: 13rem;
     }
 }
 
-@media screen and (max-width:681px){
-    .img__logo_png{
+@media screen and (max-width:681px) {
+    .img__logo_png {
         width: 250px;
     }
-    .nombre__radio{
+
+    .nombre__radio {
         font-size: 2.8rem;
     }
-    #img__album{
+
+    #img__album {
         width: 14rem;
     }
 }
 
 @media screen and (max-width: 964px) {
-    .img__logo_png{
+    .img__logo_png {
         width: 10rem;
     }
-    .imgs__apps{
+
+    .imgs__apps {
         align-items: center;
     }
-    .nombre__radio{
+
+    .nombre__radio {
         font-size: 4rem;
     }
+
     #img__album {
         width: 10rem;
     }
 }
-
-
-
-
