@@ -7,7 +7,6 @@ body,
 html {
     padding: 0;
     margin: 0;
-
     font-family: 'Poppins', 'Roboto', sans-serif;
     background-color: var(--bg);
     color: var(--text-principal);
@@ -48,21 +47,16 @@ html {
     height: 100vh;
     top: 0;
     left: 0;
-
-    /* From https://css.glass */
     background: rgba(35, 31, 32, 0.72);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(12.6px);
     -webkit-backdrop-filter: blur(12.6px);
     border: 1px solid rgba(35, 31, 32, 0.3);
-
     box-sizing: border-box;
-
 }
 
 @keyframes zoom-in-zoom-out {
-
     0% {
         transform: scale(0.99, 0.99);
     }
@@ -74,7 +68,6 @@ html {
     100% {
         transform: scale(0.99, 0.99);
     }
-
 }
 
 ::-webkit-scrollbar {
@@ -115,7 +108,6 @@ html {
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
-
 .text__tema__actual {
     text-align: center;
 }
@@ -132,7 +124,6 @@ html {
     background-color: transparent;
     cursor: pointer;
     transition: 1s;
-
 }
 
 .boton:hover {
@@ -175,7 +166,6 @@ html {
     justify-content: start;
     align-items: center;
     gap: 0;
-
 }
 
 .img__logo_png {
@@ -185,10 +175,9 @@ html {
     background: none;
 }
 
-.img__logo .img__logo__icon{
-    width: 6rem;
+.img__logo .img__logo__icon {
+    width: 300px;
 }
-
 
 .nombre__radio {
     font-weight: bold;
@@ -196,15 +185,14 @@ html {
 }
 
 .imgs__apps {
-    position: relative;
-    width: 100%;
+    position: absolute;
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    align-items: center;
     gap: 15px;
-    right: 1rem;
+    top: 50px;
+    right: 28px;
     z-index: 10;
-
-
 }
 
 .imgs__icon a {
@@ -216,8 +204,6 @@ html {
     opacity: 0.7;
 }
 
-
-
 .redes {
     display: flex;
     width: 100%;
@@ -226,10 +212,7 @@ html {
     align-items: center;
     bottom: 1rem;
     z-index: 10;
-
 }
-
-
 
 .redes ul {
     display: flex;
@@ -258,8 +241,6 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
-
 }
 
 .wsp {
@@ -301,9 +282,7 @@ html {
     }
 }
 
-
-
-@media screen and (max-width:449px) {
+@media screen and (max-width: 449px) {
     .img__logo_png {
         display: none;
     }
@@ -313,7 +292,8 @@ html {
     }
 
     .redes ul li a i {
-        font-size: 1rem;
+        width: 10px;
+        height: 10px;
     }
 
     .wsp a i {
@@ -333,16 +313,14 @@ html {
     #img__album {
         width: 10rem;
     }
+
     .img__logo .img__logo__icon {
         width: 100px;
     }
-
 }
 
-
-
-@media screen and (max-width:810px) {
-    .img__logo_png{
+@media screen and (max-width: 810px) {
+    .img__logo_png {
         width: 16rem;
     }
 }
@@ -351,8 +329,9 @@ html {
     .img__logo .img__logo__icon {
         display: none;
     }
-    .img__logo_png{
 
+    .img__logo_png {
+        width: 14rem;
     }
 }
 
@@ -362,7 +341,7 @@ html {
     }
 }
 
-/* @media screen and (max-width:529px) {
+@media screen and (max-width: 529px) {
     .img__logo_png {
         width: 300px;
     }
@@ -376,7 +355,7 @@ html {
     }
 }
 
-@media screen and (max-width:681px) {
+@media screen and (max-width: 681px) {
     .img__logo_png {
         width: 250px;
     }
@@ -388,7 +367,7 @@ html {
     #img__album {
         width: 14rem;
     }
-} */
+}
 
 @media screen and (min-width: 964px) {
     .img__logo_png {
@@ -406,7 +385,8 @@ html {
     #img__album {
         width: 10rem;
     }
-    .img__logo .img__logo__icon{
+
+    .img__logo .img__logo__icon {
         width: 170px;
     }
 }
