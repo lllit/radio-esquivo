@@ -157,6 +157,12 @@ html {
    
 }
 
+.img__logo_png {
+    width: 400px; 
+    height: auto;
+    object-fit: contain; 
+    background: none;
+}
 
 
 .nombre__radio{
@@ -269,6 +275,9 @@ html {
 
 
 @media screen and (max-width:449px){
+    .img__logo_png{
+        display: none;
+    }
     .nombre__radio{
         display: none;
     }
@@ -288,11 +297,15 @@ html {
         height: 10px;
     }
     #img__album{
-        width: 10rem;
+        width: 200px;
     }
+    
 }
 
-@media screen and (min-width:529px){
+@media screen and (max-width:529px){
+    .img__logo_png{
+        width: 300px;
+    }
     .nombre__radio{
         font-size: 2.6rem;
     }
@@ -301,7 +314,10 @@ html {
     }
 }
 
-@media screen and (min-width:681px){
+@media screen and (max-width:681px){
+    .img__logo_png{
+        width: 250px;
+    }
     .nombre__radio{
         font-size: 2.8rem;
     }
@@ -310,8 +326,10 @@ html {
     }
 }
 
-@media screen and (min-width: 964px) {
-
+@media screen and (max-width: 964px) {
+    .img__logo_png{
+        width: 250px;
+    }
     .imgs__apps{
         align-items: center;
     }
