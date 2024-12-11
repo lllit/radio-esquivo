@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radio Esquivo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+
+</head>
+
+<body>
+
+    <section class="cnt__general">
+        <h1>Esquivo</h1>
+
+        
+
+
+        <div class="img__fondo" id="img__fondo">
+            <div class="lamina"></div>
+        </div>
+        <div class="wsp">
+            <a href="#">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
+        <div class="cnt__info">
+
+            
+            <div class="img__logo">
+                <img src="assets/static.png" alt="logo" width="100">
+                <span class="nombre__radio">RADIO ESQUIVO</span>
+            </div>
+
+            <div class="img__album">
+                <img id="img__album" src="" alt="imagen de album" width="250" class="animate__animated">
+            </div>
+
+            <div class="text__tema__actual" id="tema_actual"></div>
+
+            <div class="gener__tema_actual" id="gener_actual"></div>
+
+            <div class="player">
+                <button class="boton" id="play">
+                    <i class="fa-solid fa-circle-play" id="icon__player"></i>
+                </button>
+
+            </div>
+            <input type="range" id="volume" min="0" max="1" step="0.01" value="1">
+        </div>
+
+
+
+        <div class="imgs__apps">
+            <div class="imgs__icon">
+                <a href="#">
+                    <i class="fa-brands fa-google-play"></i>
+                </a>
+            </div>
+            <div class="imgs__icon">
+                <a href="#">
+                    <i class="fa-brands fa-app-store"></i>
+                </a>
+            </div>
+        </div>
+
+
+        
+        <div class="redes">
+            <ul>
+                <li>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa-brands fa-soundcloud"></i>
+                    </a>
+                    
+                </li>
+                <li>
+                    <a href="">
+                        <i class="fa-brands fa-spotify"></i>
+                    </a>
+                    
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

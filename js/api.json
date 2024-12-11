@@ -1,0 +1,1309 @@
+[
+    {
+        "station": {
+            "id": 9,
+            "name": "Tropikal",
+            "shortcode": "tropikal",
+            "description": "radio On line",
+            "frontend": "shoutcast2",
+            "backend": "liquidsoap",
+            "timezone": "America/Costa_Rica",
+            "listen_url": "https://moxstudio.live:8070/radio.mp3",
+            "url": "",
+            "public_player_url": "https://moxstudio.live/public/tropikal",
+            "playlist_pls_url": "https://moxstudio.live/public/tropikal/playlist.pls",
+            "playlist_m3u_url": "https://moxstudio.live/public/tropikal/playlist.m3u",
+            "is_public": true,
+            "mounts": [
+                {
+                    "id": 15,
+                    "name": "/radio.mp3 (128kbps MP3)",
+                    "url": "https://moxstudio.live:8070/radio.mp3",
+                    "bitrate": 128,
+                    "format": "mp3",
+                    "listeners": {
+                        "total": 1,
+                        "unique": 1,
+                        "current": 1
+                    },
+                    "path": "/radio.mp3",
+                    "is_default": true
+                }
+            ],
+            "remotes": [],
+            "hls_enabled": false,
+            "hls_is_default": false,
+            "hls_url": null,
+            "hls_listeners": 0
+        },
+        "listeners": {
+            "total": 1,
+            "unique": 1,
+            "current": 1
+        },
+        "live": {
+            "is_live": false,
+            "streamer_name": "",
+            "broadcast_start": null,
+            "art": null
+        },
+        "now_playing": {
+            "sh_id": 3270789,
+            "played_at": 1733849956,
+            "duration": 5,
+            "playlist": "Pisadores",
+            "streamer": "",
+            "is_request": false,
+            "song": {
+                "id": "aa1f381ab13a2ece72740d4b92dc0c1c",
+                "art": "https://moxstudio.live/api/station/tropikal/art/784e066af853d3dc13faa964",
+                "custom_fields": [],
+                "text": " - guaro mix 2",
+                "artist": "",
+                "title": "guaro mix 2",
+                "album": "",
+                "genre": "",
+                "isrc": "",
+                "lyrics": ""
+            },
+            "elapsed": 5,
+            "remaining": 0
+        },
+        "playing_next": {
+            "cued_at": 1733849928,
+            "played_at": 1733849953,
+            "duration": 171,
+            "playlist": "Crosover",
+            "is_request": false,
+            "song": {
+                "id": "50df5bc908cd6294627fee2be99701c7",
+                "art": "https://moxstudio.live/api/station/tropikal/art/70ac456b10fea1c8cd4c05eb-1722910665.jpg",
+                "custom_fields": [],
+                "text": "La Viejoteca de RICHY - Vagabundo soy - Rodolfo Aicardi",
+                "artist": "La Viejoteca de RICHY",
+                "title": "Vagabundo soy - Rodolfo Aicardi",
+                "album": "La Viejoteca de RICHY",
+                "genre": "",
+                "isrc": "",
+                "lyrics": ""
+            }
+        },
+        "song_history": [],
+        "is_online": true,
+        "cache": null
+    },
+    {
+        "station": {
+            "id": 20,
+            "name": "MOx Radio",
+            "shortcode": "moxradio",
+            "description": "Radio On line",
+            "frontend": "shoutcast2",
+            "backend": "liquidsoap",
+            "timezone": "America/Guayaquil",
+            "listen_url": "https://moxstudio.live:8000/radio.mp3",
+            "url": "https://moxinnovations.com",
+            "public_player_url": "https://moxstudio.live/public/moxradio",
+            "playlist_pls_url": "https://moxstudio.live/public/moxradio/playlist.pls",
+            "playlist_m3u_url": "https://moxstudio.live/public/moxradio/playlist.m3u",
+            "is_public": true,
+            "mounts": [
+                {
+                    "id": 36,
+                    "name": "/radio.mp3 (128kbps MP3)",
+                    "url": "https://moxstudio.live:8000/radio.mp3",
+                    "bitrate": 128,
+                    "format": "mp3",
+                    "listeners": {
+                        "total": 0,
+                        "unique": 0,
+                        "current": 0
+                    },
+                    "path": "/radio.mp3",
+                    "is_default": true
+                }
+            ],
+            "remotes": [],
+            "hls_enabled": false,
+            "hls_is_default": false,
+            "hls_url": null,
+            "hls_listeners": 0
+        },
+        "listeners": {
+            "total": 0,
+            "unique": 0,
+            "current": 0
+        },
+        "live": {
+            "is_live": false,
+            "streamer_name": "",
+            "broadcast_start": null,
+            "art": null
+        },
+        "now_playing": {
+            "sh_id": 3270786,
+            "played_at": 1733849909,
+            "duration": 229,
+            "playlist": "general",
+            "streamer": "",
+            "is_request": false,
+            "song": {
+                "id": "5d41d4e76aa8bb52bb51088ba0135e15",
+                "art": "https://moxstudio.live/api/station/moxradio/art/4c466d6b284c5d7bf26d133c-1721745313.jpg",
+                "custom_fields": [],
+                "text": "Jay Duran - Yo Te Veré (Extranjero)",
+                "artist": "Jay Duran",
+                "title": "Yo Te Veré (Extranjero)",
+                "album": "EXTRANJEROS: FASE DOS",
+                "genre": "",
+                "isrc": "QZHNC2278472",
+                "lyrics": ""
+            },
+            "elapsed": 59,
+            "remaining": 170
+        },
+        "playing_next": {
+            "cued_at": 1733849892,
+            "played_at": 1733850130,
+            "duration": 194,
+            "playlist": "general",
+            "is_request": false,
+            "song": {
+                "id": "7ef2690966c5b7877778399743f3fce9",
+                "art": "https://moxstudio.live/api/station/moxradio/art/58f91d8fbfccf8b007b9fb11-1721745343.jpg",
+                "custom_fields": [],
+                "text": "PLATANOS - IMPASE",
+                "artist": "PLATANOS",
+                "title": "IMPASE",
+                "album": "IMPASE",
+                "genre": "",
+                "isrc": "ARUH42300053",
+                "lyrics": ""
+            }
+        },
+        "song_history": [
+            {
+                "sh_id": 3270773,
+                "played_at": 1733849693,
+                "duration": 219,
+                "playlist": "general",
+                "streamer": "",
+                "is_request": false,
+                "song": {
+                    "id": "8b159b66430059366778e02dfc54fd6f",
+                    "art": "https://moxstudio.live/api/station/moxradio/art/04afa8fb8adb0184806564b7-1721745291.jpg",
+                    "custom_fields": [],
+                    "text": "Crystal Lewis - Dia Feliz",
+                    "artist": "Crystal Lewis",
+                    "title": "Dia Feliz",
+                    "album": "Santo, Santo, Santo",
+                    "genre": "",
+                    "isrc": "US23D0400304",
+                    "lyrics": "[Letra de \"Oh dia feliz\"]\n\n¡Oh, día feliz!\n¡Oh, día feliz\nCuando Jesús\nMis pecados lavó!\n¡Oh, día feliz!\n¡Oh, día feliz\nCuando Jesús\nMis pecados lavó!\n\nÉl me enseñó\nComo vigilar y orar\n¡Oh, día feliz!\n¡Oh, día feliz!\nY a regocijarme\nEn su gozo cada día\n¡Oh, día feliz!\n\n¡Oh, día feliz!\n¡Oh, día feliz\nCuando Jesús\nMis pecados lavó!\n\nÉl me enseñó\nComo vigilar y orar\n¡Oh, día feliz\nCuando Jesús\nMis pecados lavó!\nY a regocijarme\nEn su gozo cada día\nOh, día feliz!\n\n¡Oh, día feliz!\n¡Oh, día feliz!\n¡Oh, día feliz!\n¡Oh, día feliz\nCuando Jesús\nMis pecados lavó!\n\n¡Oh, día feliz!"
+                }
+            },
+            {
+                "sh_id": 3270762,
+                "played_at": 1733849490,
+                "duration": 204,
+                "playlist": "general",
+                "streamer": "",
+                "is_request": false,
+                "song": {
+                    "id": "c4e9063a8fd22c0af0ca519188d6f159",
+                    "art": "https://moxstudio.live/api/station/moxradio/art/3f8de97036ef74e95372e18a-1721745356.jpg",
+                    "custom_fields": [],
+                    "text": "Su Presencia - Bailando",
+                    "artist": "Su Presencia",
+                    "title": "Bailando",
+                    "album": "Fragmentos del Cielo",
+                    "genre": "Latin Christian",
+                    "isrc": "COA741800003",
+                    "lyrics": "[Verso 1]\nMi pobre vida tú cambiaste\nAl encontrarnos en la cruz\nDesde el cielo tú llegaste\nPara mi mano tomar\n\n\n[Pre-coro]\nMe vestiste con amor\nCon ropas de salvación\nOh oh\nOh oh\n\nLet's Dance\n\n[Coro]\nBailando, al ritmo de tu corazón\nBailando, al ritmo de tu corazón\n\n\n[Verso 2]\nUn soplo de vida en mí\nCada pieza unió\nTu Palabra me sanó\nTocaste mi corazón\n\n\n[Puente]\nJesús, tú cantas sobre mí\nY tus palabras me sanan\nQuiero bailar contigo por la eternidad\nEn tus brazos quiero estar\n\n\nBailando\n(Let's dance)\n(Let's dance)\nAl ritmo de tu corazón\nOh, oh, oh, oh\n(Let's dance)\n(Let's dance)"
+                }
+            },
+            {
+                "sh_id": 3270741,
+                "played_at": 1733849186,
+                "duration": 309,
+                "playlist": "general",
+                "streamer": "",
+                "is_request": false,
+                "song": {
+                    "id": "a705dd38dbe6562defbff622b29ad0f5",
+                    "art": "https://moxstudio.live/api/station/moxradio/art/5ea0f02588bed105e6da4b3b-1721745290.jpg",
+                    "custom_fields": [],
+                    "text": "Coalo Zamorano - Gloria Sea A Ti",
+                    "artist": "Coalo Zamorano",
+                    "title": "Gloria Sea A Ti",
+                    "album": "Gloria Sea A Ti",
+                    "genre": "Latin Christian",
+                    "isrc": "QM4TX1929544",
+                    "lyrics": "Sólo Tú\nSólo tú\nPara mi\nEres todo mi Jesús\nSólo tú\nSólo tú\nPara mi\nEres todo Dios\nSólo tú\nSólo tú\nPara mi\nEres todo mi Jesús\nSólo tú\nSólo tú\nPara mi\nEres todo Dios\n\nCoro:\nMi vida\nY mi gloria\n¿quién se compara a ti?\nGrande es tu gloria\nMajestuoso Rey\nMi Dios \nMi paz\nSiempre serás\nSólo tú\nSólo tú\nSólo tú\nPara mi\nEres todo mi Jesús\nSólo tú\nSólo tú\nPara mi\nEres todo Dios\n\nCoro:\nMi vida\nY mi gloria\n¿quién se compara a ti?\nGrande es tu gloria\nMajestuoso Rey\nMi Dios\nMi paz\nSiempre serás\nMi vida\nY mi gloria\n¿quién se compara a ti?\nGrande es tu gloria\nMajestuoso Rey\nMi Dios\nMi paz\nSiempre serás\nMi vida\nY mi gloria\n¿quién se compara a ti?\nGrande es tu gloria\nMajestuoso Rey\nMi Dios\nMi paz\nSiempre serás\nMi Dios\nMi paz\nSiempre serás\nMi Dios\nMi paz\nSiempre serás...\nSólo tú"
+                }
+            },
+            {
+                "sh_id": 3270732,
+                "played_at": 1733849031,
+                "duration": 156,
+                "playlist": "general",
+                "streamer": "",
+                "is_request": false,
+                "song": {
+                    "id": "586395f27ebc7a72ea4928228a3c2cdf",
+                    "art": "https://moxstudio.live/api/station/moxradio/art/6ddf12b1c33f1a9c8601603b-1721745334.jpg",
+                    "custom_fields": [],
+                    "text": "Marcos Yaroide/Tomi Perfetti - Jesucristo",
+                    "artist": "Marcos Yaroide/Tomi Perfetti",
+                    "title": "Jesucristo",
+                    "album": "Tributo",
+                    "genre": "Latin Christian",
+                    "isrc": "QZ2J21513776",
+                    "lyrics": ""
+                }
+            },
+            {
+                "sh_id": 3270719,
+                "played_at": 1733848795,
+                "duration": 236,
+                "playlist": "general",
+                "streamer": "",
+                "is_request": false,
+                "song": {
+                    "id": "7e8a14714ac259404f3b89c5ea9bdf7e",
+                    "art": "https://moxstudio.live/api/station/moxradio/art/64a47d7aa5a5176445b4621e-1721745306.jpg",
+                    "custom_fields": [],
+                    "text": "Freddy Camey/Sammy Méndez - Sublime Gracia",
+                    "artist": "Freddy Camey/Sammy Méndez",
+                    "title": "Sublime Gracia",
+                    "album": "Libre",
+                    "genre": "",
+                    "isrc": "usl4q1978619",
+                    "lyrics": ""
+                }
+            },
+            {
+                "sh_id": 3270708,
+                "played_at": 1733848579,
+                "duration": 220,
+                "playlist": "general",
+                "streamer": "",
+                "is_request": false,
+                "song": {
+                    "id": "63287f9a4a85f5303be827801eeea02d",
+                    "art": "https://moxstudio.live/api/station/moxradio/art/9d32ed554c70a41a1da81c2b-1721745292.jpg",
+                    "custom_fields": [],
+                    "text": "Dan Velasquez - Gloria Mia - En Vivo",
+                    "artist": "Dan Velasquez",
+                    "title": "Gloria Mia - En Vivo",
+                    "album": "El Concierto (En Vivo)",
+                    "genre": "",
+                    "isrc": "SE6I32121391",
+                    "lyrics": ""
+                }
+            },
+            {
+                "sh_id": 3270693,
+                "played_at": 1733848344,
+                "duration": 241,
+                "playlist": "general",
+                "streamer": "",
+                "is_request": false,
+                "song": {
+                    "id": "5232111ffd89c25b78393f17b534c7a7",
+                    "art": "https://moxstudio.live/api/station/moxradio/art/82845e762ea0e31a602894d4-1721745330.jpg",
+                    "custom_fields": [],
+                    "text": "Marcos Witt - Vivo para Amarte - En Vivo",
+                    "artist": "Marcos Witt",
+                    "title": "Vivo para Amarte - En Vivo",
+                    "album": "Sigues Siendo Dios (En Vivo)",
+                    "genre": "Latin Christian",
+                    "isrc": "USCG61550102",
+                    "lyrics": "Cada vez que yo me acerco a ti mmm\nTu alegria y gozo siempre me hace revivir uoo\nTu abrazo me regala paz uu\nCada vez que yo me acerco a ti mmm\nTu alegria y gozo siempre me hace revivir uoo\nTu abrazo me regala paz uu\nMe hace enamorar cada día mas y mas\n\nVivo para amarte y quiero agradarte\nSiempre entregarte lo mejor de mi\nPorque eres mi alegria cada noche y día\nYo me asombro ante ti incomparable Dios\n\nEres la razon de esta canción\nTu eres mi unica esperanza y oración\nSin tu amor la vida no es igual\nQuiero respirar tu aliento y gracia celestial\n\nVivo para amarte y quiero agradarte\nSiempre entregarte lo mejor de mi\nPorque eres mi alegria cada noche y día\nYo me asombro ante ti incomparable Dios\n\nVivo para amarte, vivo para amarte\nVivo para amarte Dios\nEl es mi alegria cada noche y día\nVivo para amarte Dios /\nVivo para amarte\nEres mi alegria cada noche y día\nYo me asombro ante ti\nIncomparable Dios\n\nVivo para amarte y quiero agradarte\nSiempre entregarte lo mejor de mi\nPorque eres mi alegria cada noche y día\nYo me asombro ante ti incomparable Dios"
+                }
+            },
+            {
+                "sh_id": 3270681,
+                "played_at": 1733848143,
+                "duration": 205,
+                "playlist": "general",
+                "streamer": "",
+                "is_request": false,
+                "song": {
+                    "id": "628af6514fc8c3d71432fd7d254cf27e",
+                    "art": "https://moxstudio.live/api/station/moxradio/art/4e5fb5a9d644c8e7d789898e-1721745322.jpg",
+                    "custom_fields": [],
+                    "text": "Kike Pavón - Por Completo",
+                    "artist": "Kike Pavón",
+                    "title": "Por Completo",
+                    "album": "Por Completo",
+                    "genre": "Latin Christian",
+                    "isrc": "QZ2J21506620",
+                    "lyrics": ""
+                }
+            },
+            {
+                "sh_id": 3270669,
+                "played_at": 1733847902,
+                "duration": 241,
+                "playlist": "general",
+                "streamer": "",
+                "is_request": false,
+                "song": {
+                    "id": "4f62ce7eb8a8a6c7e15436ba49d6c90a",
+                    "art": "https://moxstudio.live/api/station/moxradio/art/b085b26a493ef72a4f429643-1721745295.jpg",
+                    "custom_fields": [],
+                    "text": "David Gomez - Puedo Disfrutar",
+                    "artist": "David Gomez",
+                    "title": "Puedo Disfrutar",
+                    "album": "Puedo Disfrutar",
+                    "genre": "",
+                    "isrc": "ushm92015578",
+                    "lyrics": ""
+                }
+            },
+            {
+                "sh_id": 3270655,
+                "played_at": 1733847672,
+                "duration": 235,
+                "playlist": "general",
+                "streamer": "",
+                "is_request": false,
+                "song": {
+                    "id": "c5f677d989d308aed7c1286ee507fb5a",
+                    "art": "https://moxstudio.live/api/station/moxradio/art/bb84dd5d59691170e0d8fc14-1721745281.jpg",
+                    "custom_fields": [],
+                    "text": "Álvaro López/Resq Band/Pablo Cordero - Creo en Ti",
+                    "artist": "Álvaro López/Resq Band/Pablo Cordero",
+                    "title": "Creo en Ti",
+                    "album": "Sol Detente",
+                    "genre": "Latin Worship",
+                    "isrc": "USCGH1725166",
+                    "lyrics": ""
+                }
+            }
+        ],
+        "is_online": true,
+        "cache": null
+    },
+    {
+        "station": {
+            "id": 10,
+            "name": "Diciembre Stereo",
+            "shortcode": "diciembrestereo",
+            "description": "radio On Line",
+            "frontend": "shoutcast2",
+            "backend": "liquidsoap",
+            "timezone": "America/Costa_Rica",
+            "listen_url": "https://moxstudio.live:8090/radio.mp3",
+            "url": "",
+            "public_player_url": "https://moxstudio.live/public/diciembrestereo",
+            "playlist_pls_url": "https://moxstudio.live/public/diciembrestereo/playlist.pls",
+            "playlist_m3u_url": "https://moxstudio.live/public/diciembrestereo/playlist.m3u",
+            "is_public": true,
+            "mounts": [
+                {
+                    "id": 17,
+                    "name": "/radio.mp3 (128kbps MP3)",
+                    "url": "https://moxstudio.live:8090/radio.mp3",
+                    "bitrate": 128,
+                    "format": "mp3",
+                    "listeners": {
+                        "total": 56,
+                        "unique": 48,
+                        "current": 56
+                    },
+                    "path": "/radio.mp3",
+                    "is_default": true
+                }
+            ],
+            "remotes": [
+                {
+                    "id": 6,
+                    "name": "Diciembre Stereo ",
+                    "url": "https://c23.radioboss.fm:8195/stream",
+                    "bitrate": null,
+                    "format": null,
+                    "listeners": {
+                        "total": 0,
+                        "unique": 0,
+                        "current": 0
+                    }
+                }
+            ],
+            "hls_enabled": false,
+            "hls_is_default": false,
+            "hls_url": null,
+            "hls_listeners": 0
+        },
+        "listeners": {
+            "total": 56,
+            "unique": 48,
+            "current": 56
+        },
+        "live": {
+            "is_live": false,
+            "streamer_name": "",
+            "broadcast_start": null,
+            "art": null
+        },
+        "now_playing": {
+            "sh_id": 3270788,
+            "played_at": 1733849928,
+            "duration": 0,
+            "playlist": "",
+            "streamer": "",
+            "is_request": false,
+            "song": {
+                "id": "0486da85c57fc586145ff2eaa02bdd2b",
+                "art": "https://moxstudio.live/static/uploads/album_art.1705516383.jpg",
+                "custom_fields": [],
+                "text": "SUEÑO CONTIGO - LOS GRADUADOS - LA VIEJOTECA DE FERCHO",
+                "artist": "SUEÑO CONTIGO",
+                "title": "LOS GRADUADOS - LA VIEJOTECA DE FERCHO",
+                "album": "",
+                "genre": "",
+                "isrc": "",
+                "lyrics": ""
+            },
+            "elapsed": 40,
+            "remaining": 0
+        },
+        "playing_next": null,
+        "song_history": [],
+        "is_online": true,
+        "cache": null
+    },
+    {
+        "station": {
+            "id": 7,
+            "name": "Dino Radio",
+            "shortcode": "dinoradio",
+            "description": "Radio On Line",
+            "frontend": "icecast",
+            "backend": "liquidsoap",
+            "timezone": "America/Guayaquil",
+            "listen_url": "https://moxstudio.live:8060/radio.mp3",
+            "url": "https://dinoradioec.com",
+            "public_player_url": "https://moxstudio.live/public/dinoradio",
+            "playlist_pls_url": "https://moxstudio.live/public/dinoradio/playlist.pls",
+            "playlist_m3u_url": "https://moxstudio.live/public/dinoradio/playlist.m3u",
+            "is_public": true,
+            "mounts": [
+                {
+                    "id": 11,
+                    "name": "/radio.mp3 (128kbps MP3)",
+                    "url": "https://moxstudio.live:8060/radio.mp3",
+                    "bitrate": 128,
+                    "format": "mp3",
+                    "listeners": {
+                        "total": 1,
+                        "unique": 1,
+                        "current": 1
+                    },
+                    "path": "/radio.mp3",
+                    "is_default": true
+                }
+            ],
+            "remotes": [],
+            "hls_enabled": false,
+            "hls_is_default": false,
+            "hls_url": null,
+            "hls_listeners": 0
+        },
+        "listeners": {
+            "total": 1,
+            "unique": 1,
+            "current": 1
+        },
+        "live": {
+            "is_live": false,
+            "streamer_name": "",
+            "broadcast_start": null,
+            "art": null
+        },
+        "now_playing": {
+            "sh_id": 3270784,
+            "played_at": 1733849888,
+            "duration": 122,
+            "playlist": "playlist_dino_music",
+            "streamer": "",
+            "is_request": false,
+            "song": {
+                "id": "6fe66bcc3883da6a27d98a5e93854291",
+                "art": "https://moxstudio.live/api/station/dinoradio/art/e1dbdf142309e1a5c18ae54d",
+                "custom_fields": [],
+                "text": " - Miel ｜ Lauri Garcia",
+                "artist": "",
+                "title": "Miel ｜ Lauri Garcia",
+                "album": "",
+                "genre": "",
+                "isrc": "",
+                "lyrics": ""
+            },
+            "elapsed": 80,
+            "remaining": 42
+        },
+        "playing_next": {
+            "cued_at": 1733849899,
+            "played_at": 1733850021,
+            "duration": 199,
+            "playlist": "playlist_dino_music",
+            "is_request": false,
+            "song": {
+                "id": "9a856c9cd71ebbd730149a13a4523ef0",
+                "art": "https://moxstudio.live/api/station/dinoradio/art/eab7eb08b9944eabe0acb038",
+                "custom_fields": [],
+                "text": "Daniel Betancourth - Tus Colores (P. Mekhia-Ramos) mp3",
+                "artist": "Daniel Betancourth",
+                "title": "Tus Colores (P. Mekhia-Ramos) mp3",
+                "album": "",
+                "genre": "",
+                "isrc": "",
+                "lyrics": ""
+            }
+        },
+        "song_history": [],
+        "is_online": true,
+        "cache": null
+    },
+    {
+        "station": {
+            "id": 8,
+            "name": "Iglesia el Salvador Online",
+            "shortcode": "elsalvador",
+            "description": "Radio Cristiana Online",
+            "frontend": "shoutcast2",
+            "backend": "liquidsoap",
+            "timezone": "America/La_Paz",
+            "listen_url": "https://moxstudio.live:8050/radio.mp3",
+            "url": "https://iglesiaelsalvador.online",
+            "public_player_url": "https://moxstudio.live/public/elsalvador",
+            "playlist_pls_url": "https://moxstudio.live/public/elsalvador/playlist.pls",
+            "playlist_m3u_url": "https://moxstudio.live/public/elsalvador/playlist.m3u",
+            "is_public": true,
+            "mounts": [
+                {
+                    "id": 13,
+                    "name": "/radio.mp3 (320kbps MP3)",
+                    "url": "https://moxstudio.live:8050/radio.mp3",
+                    "bitrate": 320,
+                    "format": "mp3",
+                    "listeners": {
+                        "total": 0,
+                        "unique": 0,
+                        "current": 0
+                    },
+                    "path": "/radio.mp3",
+                    "is_default": true
+                }
+            ],
+            "remotes": [],
+            "hls_enabled": false,
+            "hls_is_default": false,
+            "hls_url": null,
+            "hls_listeners": 0
+        },
+        "listeners": {
+            "total": 0,
+            "unique": 0,
+            "current": 0
+        },
+        "live": {
+            "is_live": false,
+            "streamer_name": "",
+            "broadcast_start": null,
+            "art": null
+        },
+        "now_playing": {
+            "sh_id": 3270782,
+            "played_at": 1733849863,
+            "duration": 330,
+            "playlist": "general",
+            "streamer": "",
+            "is_request": false,
+            "song": {
+                "id": "85f9c8324beadbd421e8ef8d196e69fc",
+                "art": "https://moxstudio.live/api/station/elsalvador/art/60443f090f77337b1fe68407-1690991054.jpg",
+                "custom_fields": [],
+                "text": "Hillsong en Español - Es Tu Amor",
+                "artist": "Hillsong en Español",
+                "title": "Es Tu Amor",
+                "album": "Global Project ESPAÑOL (Spanish)",
+                "genre": "",
+                "isrc": "AUHS01204732",
+                "lyrics": ""
+            },
+            "elapsed": 105,
+            "remaining": 225
+        },
+        "playing_next": {
+            "cued_at": 1733849850,
+            "played_at": 1733850185,
+            "duration": 266,
+            "playlist": "general",
+            "is_request": false,
+            "song": {
+                "id": "5df70793d6a577fbdaf42f59c85f899c",
+                "art": "https://moxstudio.live/api/station/elsalvador/art/65e587295dd38bb277d51844-1690991062.jpg",
+                "custom_fields": [],
+                "text": "Hillsong en Español - Te Alabaré",
+                "artist": "Hillsong en Español",
+                "title": "Te Alabaré",
+                "album": "Global Project ESPAÑOL (Spanish)",
+                "genre": "",
+                "isrc": "AUHS01204743",
+                "lyrics": ""
+            }
+        },
+        "song_history": [],
+        "is_online": true,
+        "cache": null
+    },
+    {
+        "station": {
+            "id": 21,
+            "name": "Super Hits Nicaragua",
+            "shortcode": "perhits",
+            "description": "Emisora en línea que retransmite desde Matagalpa, Nicaragua, a lo largo de las 24 horas del día. Su programación es entretenida y de carácter principalmente musical, con una amplia gama de éxitos musicales y muchos temas latinos bailables en estilos como reggaeton.",
+            "frontend": "shoutcast2",
+            "backend": "liquidsoap",
+            "timezone": "America/Managua",
+            "listen_url": "https://moxstudio.live:8010/radio.mp3",
+            "url": "",
+            "public_player_url": "https://moxstudio.live/public/perhits",
+            "playlist_pls_url": "https://moxstudio.live/public/perhits/playlist.pls",
+            "playlist_m3u_url": "https://moxstudio.live/public/perhits/playlist.m3u",
+            "is_public": true,
+            "mounts": [
+                {
+                    "id": 38,
+                    "name": "/radio.mp3 (128kbps MP3)",
+                    "url": "https://moxstudio.live:8010/radio.mp3",
+                    "bitrate": 128,
+                    "format": "mp3",
+                    "listeners": {
+                        "total": 1,
+                        "unique": 1,
+                        "current": 1
+                    },
+                    "path": "/radio.mp3",
+                    "is_default": true
+                }
+            ],
+            "remotes": [],
+            "hls_enabled": false,
+            "hls_is_default": false,
+            "hls_url": null,
+            "hls_listeners": 0
+        },
+        "listeners": {
+            "total": 1,
+            "unique": 1,
+            "current": 1
+        },
+        "live": {
+            "is_live": false,
+            "streamer_name": "",
+            "broadcast_start": null,
+            "art": null
+        },
+        "now_playing": {
+            "sh_id": 3270781,
+            "played_at": 1733849815,
+            "duration": 232,
+            "playlist": "REGGAETON ACTUAL",
+            "streamer": "",
+            "is_request": false,
+            "song": {
+                "id": "2b64e46bbde133b6f3b310ab06d237f4",
+                "art": "https://moxstudio.live/api/station/perhits/art/3f085b599132dc52091ea3cf",
+                "custom_fields": [],
+                "text": "mau/BRUJERIA YAGA Y MAKIE - BRUJERIA YAGA Y MAKIE.mp3",
+                "artist": "mau/BRUJERIA YAGA Y MAKIE",
+                "title": "BRUJERIA YAGA Y MAKIE.mp3",
+                "album": "Variado",
+                "genre": "",
+                "isrc": "",
+                "lyrics": ""
+            },
+            "elapsed": 153,
+            "remaining": 79
+        },
+        "playing_next": {
+            "cued_at": 1733849804,
+            "played_at": 1733850039,
+            "duration": 257,
+            "playlist": "REGGAETON ACTUAL",
+            "is_request": false,
+            "song": {
+                "id": "d92c1ed935bce54b8faf671d54a254e5",
+                "art": "https://moxstudio.live/api/station/perhits/art/10d80cc43d6574903fce475f",
+                "custom_fields": [],
+                "text": "Alexis & Fido Feat. Franco El Gorila - Mala Conducta",
+                "artist": "Alexis & Fido Feat. Franco El Gorila",
+                "title": "Mala Conducta",
+                "album": "Perreología",
+                "genre": "Latin",
+                "isrc": "",
+                "lyrics": ""
+            }
+        },
+        "song_history": [],
+        "is_online": true,
+        "cache": null
+    },
+    {
+        "station": {
+            "id": 11,
+            "name": "La Palabra Verdadera",
+            "shortcode": "lapalabraverdadera",
+            "description": "Radio Cristiana ",
+            "frontend": "shoutcast2",
+            "backend": "liquidsoap",
+            "timezone": "America/Bogota",
+            "listen_url": "https://moxstudio.live:8100/radio.mp3",
+            "url": "",
+            "public_player_url": "https://moxstudio.live/public/lapalabraverdadera",
+            "playlist_pls_url": "https://moxstudio.live/public/lapalabraverdadera/playlist.pls",
+            "playlist_m3u_url": "https://moxstudio.live/public/lapalabraverdadera/playlist.m3u",
+            "is_public": true,
+            "mounts": [
+                {
+                    "id": 19,
+                    "name": "/radio.mp3 (128kbps MP3)",
+                    "url": "https://moxstudio.live:8100/radio.mp3",
+                    "bitrate": 128,
+                    "format": "mp3",
+                    "listeners": {
+                        "total": 0,
+                        "unique": 0,
+                        "current": 0
+                    },
+                    "path": "/radio.mp3",
+                    "is_default": true
+                }
+            ],
+            "remotes": [],
+            "hls_enabled": false,
+            "hls_is_default": false,
+            "hls_url": null,
+            "hls_listeners": 0
+        },
+        "listeners": {
+            "total": 0,
+            "unique": 0,
+            "current": 0
+        },
+        "live": {
+            "is_live": false,
+            "streamer_name": "",
+            "broadcast_start": null,
+            "art": null
+        },
+        "now_playing": {
+            "sh_id": 3270757,
+            "played_at": 1733849439,
+            "duration": 4895,
+            "playlist": "1980",
+            "streamer": "",
+            "is_request": false,
+            "song": {
+                "id": "7883555dc6dd4967fa6d4be2514ffcc5",
+                "art": "https://moxstudio.live/api/station/lapalabraverdadera/art/5ea65efd2371f74f565d0b5b-1693482751.jpg",
+                "custom_fields": [],
+                "text": "WSS mensajes de los 80s - 1980 01 06 El Juez",
+                "artist": "WSS mensajes de los 80s",
+                "title": "1980 01 06 El Juez",
+                "album": "mensajes de los 80s",
+                "genre": "",
+                "isrc": "",
+                "lyrics": ""
+            },
+            "elapsed": 529,
+            "remaining": 4366
+        },
+        "playing_next": {
+            "cued_at": 1733849432,
+            "played_at": 1733854326,
+            "duration": 257,
+            "playlist": "general",
+            "is_request": false,
+            "song": {
+                "id": "ce6ab044e2df4b7cfb658d0795fbd392",
+                "art": "https://moxstudio.live/api/station/lapalabraverdadera/art/ae64b5544ac6ec52c4b36d14-1693571125.jpg",
+                "custom_fields": [],
+                "text": "Félix Caro - El Sol de la Palabra",
+                "artist": "Félix Caro",
+                "title": "El Sol de la Palabra",
+                "album": "",
+                "genre": "",
+                "isrc": "",
+                "lyrics": ""
+            }
+        },
+        "song_history": [],
+        "is_online": true,
+        "cache": null
+    },
+    {
+        "station": {
+            "id": 13,
+            "name": "Cannan Tv Stereo",
+            "shortcode": "canaantv",
+            "description": "Radio On Line",
+            "frontend": "shoutcast2",
+            "backend": "liquidsoap",
+            "timezone": "America/Guayaquil",
+            "listen_url": "https://moxstudio.live:8120/radio.mp3",
+            "url": "https://canaantvstereo.com",
+            "public_player_url": "https://moxstudio.live/public/canaantv",
+            "playlist_pls_url": "https://moxstudio.live/public/canaantv/playlist.pls",
+            "playlist_m3u_url": "https://moxstudio.live/public/canaantv/playlist.m3u",
+            "is_public": true,
+            "mounts": [
+                {
+                    "id": 21,
+                    "name": "/radio.mp3 (128kbps MP3)",
+                    "url": "https://moxstudio.live:8120/radio.mp3",
+                    "bitrate": 128,
+                    "format": "mp3",
+                    "listeners": {
+                        "total": 0,
+                        "unique": 0,
+                        "current": 0
+                    },
+                    "path": "/radio.mp3",
+                    "is_default": true
+                }
+            ],
+            "remotes": [],
+            "hls_enabled": false,
+            "hls_is_default": false,
+            "hls_url": null,
+            "hls_listeners": 0
+        },
+        "listeners": {
+            "total": 0,
+            "unique": 0,
+            "current": 0
+        },
+        "live": {
+            "is_live": false,
+            "streamer_name": "",
+            "broadcast_start": null,
+            "art": null
+        },
+        "now_playing": {
+            "sh_id": 3270787,
+            "played_at": 1733849917,
+            "duration": 291,
+            "playlist": "Adoraciones - Folclor - Mañana ",
+            "streamer": "",
+            "is_request": false,
+            "song": {
+                "id": "32092507bcb7cd1d7a58689872f354b1",
+                "art": "https://moxstudio.live/api/station/canaantv/art/c7c9e0740075ded770f97b62-1694190275.jpg",
+                "custom_fields": [],
+                "text": " - 13 siempre te cantare",
+                "artist": "",
+                "title": "13 siempre te cantare",
+                "album": "Samy Yuyay",
+                "genre": "Folklor",
+                "isrc": "",
+                "lyrics": ""
+            },
+            "elapsed": 51,
+            "remaining": 240
+        },
+        "playing_next": {
+            "cued_at": 1733849905,
+            "played_at": 1733850200,
+            "duration": 5578,
+            "playlist": "Adoraciones - Folclor - Mañana ",
+            "is_request": false,
+            "song": {
+                "id": "13c611be5b77b785f24a1ec77050ba1c",
+                "art": "https://moxstudio.live/api/station/canaantv/art/bf87e69c378e5b3d86f397c0",
+                "custom_fields": [],
+                "text": "embajadores de jesucristo - ãlbum completo",
+                "artist": "embajadores de jesucristo",
+                "title": "ãlbum completo",
+                "album": "",
+                "genre": "",
+                "isrc": "",
+                "lyrics": ""
+            }
+        },
+        "song_history": [],
+        "is_online": true,
+        "cache": null
+    },
+    {
+        "station": {
+            "id": 4,
+            "name": "La Voz del Amor",
+            "shortcode": "lavozdelamor",
+            "description": "Radio Online ",
+            "frontend": "shoutcast2",
+            "backend": "liquidsoap",
+            "timezone": "America/Bogota",
+            "listen_url": "https://moxstudio.live:8030/radio.mp3",
+            "url": "",
+            "public_player_url": "https://moxstudio.live/public/lavozdelamor",
+            "playlist_pls_url": "https://moxstudio.live/public/lavozdelamor/playlist.pls",
+            "playlist_m3u_url": "https://moxstudio.live/public/lavozdelamor/playlist.m3u",
+            "is_public": true,
+            "mounts": [
+                {
+                    "id": 5,
+                    "name": "/radio.mp3 (96kbps MP3)",
+                    "url": "https://moxstudio.live:8030/radio.mp3",
+                    "bitrate": 96,
+                    "format": "mp3",
+                    "listeners": {
+                        "total": 0,
+                        "unique": 0,
+                        "current": 0
+                    },
+                    "path": "/radio.mp3",
+                    "is_default": true
+                }
+            ],
+            "remotes": [],
+            "hls_enabled": false,
+            "hls_is_default": false,
+            "hls_url": null,
+            "hls_listeners": 0
+        },
+        "listeners": {
+            "total": 0,
+            "unique": 0,
+            "current": 0
+        },
+        "live": {
+            "is_live": false,
+            "streamer_name": "",
+            "broadcast_start": null,
+            "art": null
+        },
+        "now_playing": {
+            "sh_id": 3270775,
+            "played_at": 1733849714,
+            "duration": 1689,
+            "playlist": "SERIE 1000",
+            "streamer": "",
+            "is_request": false,
+            "song": {
+                "id": "12cebd93c38654494ab440e812a71012",
+                "art": "https://moxstudio.live/api/station/lavozdelamor/art/3ff4804243dee4a5ce585492",
+                "custom_fields": [],
+                "text": "1031 - vamos a trabajar juntos para cambiar este planeta. alaniso. sara alejandra otero platas garcia (1)",
+                "artist": "1031",
+                "title": "vamos a trabajar juntos para cambiar este planeta. alaniso. sara alejandra otero platas garcia (1)",
+                "album": "",
+                "genre": "",
+                "isrc": "",
+                "lyrics": ""
+            },
+            "elapsed": 254,
+            "remaining": 1435
+        },
+        "playing_next": null,
+        "song_history": [],
+        "is_online": true,
+        "cache": null
+    },
+    {
+        "station": {
+            "id": 17,
+            "name": "Radio Top Bolivia",
+            "shortcode": "radiotop",
+            "description": "Radio Online ",
+            "frontend": "shoutcast2",
+            "backend": "liquidsoap",
+            "timezone": "America/La_Paz",
+            "listen_url": "https://moxstudio.live:8140/radio.mp3",
+            "url": "https://radiotop.com.bo",
+            "public_player_url": "https://moxstudio.live/public/radiotop",
+            "playlist_pls_url": "https://moxstudio.live/public/radiotop/playlist.pls",
+            "playlist_m3u_url": "https://moxstudio.live/public/radiotop/playlist.m3u",
+            "is_public": true,
+            "mounts": [
+                {
+                    "id": 28,
+                    "name": "/radio.mp3 (128kbps MP3)",
+                    "url": "https://moxstudio.live:8140/radio.mp3",
+                    "bitrate": 128,
+                    "format": "mp3",
+                    "listeners": {
+                        "total": 2,
+                        "unique": 2,
+                        "current": 2
+                    },
+                    "path": "/radio.mp3",
+                    "is_default": true
+                }
+            ],
+            "remotes": [],
+            "hls_enabled": false,
+            "hls_is_default": false,
+            "hls_url": null,
+            "hls_listeners": 0
+        },
+        "listeners": {
+            "total": 2,
+            "unique": 2,
+            "current": 2
+        },
+        "live": {
+            "is_live": false,
+            "streamer_name": "",
+            "broadcast_start": null,
+            "art": null
+        },
+        "now_playing": {
+            "sh_id": 3270777,
+            "played_at": 1733849758,
+            "duration": 218,
+            "playlist": "Musica radio top",
+            "streamer": "",
+            "is_request": false,
+            "song": {
+                "id": "e66f80b19b287240acc88d246c77769d",
+                "art": "https://moxstudio.live/api/station/radiotop/art/2a6997cdc3a87baa20f64937",
+                "custom_fields": [],
+                "text": "jordy - alison (radio edit)",
+                "artist": "jordy",
+                "title": "alison (radio edit)",
+                "album": "",
+                "genre": "",
+                "isrc": "",
+                "lyrics": ""
+            },
+            "elapsed": 210,
+            "remaining": 8
+        },
+        "playing_next": {
+            "cued_at": 1733849753,
+            "played_at": 1733849968,
+            "duration": 272,
+            "playlist": "Musica radio top",
+            "is_request": false,
+            "song": {
+                "id": "a1e0cc7eb3e5e93dc7751788b446b4be",
+                "art": "https://moxstudio.live/api/station/radiotop/art/d0e05a17244886c0236385ce",
+                "custom_fields": [],
+                "text": "eurythmic - miracle of love",
+                "artist": "eurythmic",
+                "title": "miracle of love",
+                "album": "",
+                "genre": "",
+                "isrc": "",
+                "lyrics": ""
+            }
+        },
+        "song_history": [],
+        "is_online": true,
+        "cache": null
+    },
+    {
+        "station": {
+            "id": 22,
+            "name": "Radio Kiss",
+            "shortcode": "kiss",
+            "description": "Radio Online ",
+            "frontend": "shoutcast2",
+            "backend": "liquidsoap",
+            "timezone": "America/Managua",
+            "listen_url": "https://moxstudio.live:8020/radio.mp3",
+            "url": "",
+            "public_player_url": "https://moxstudio.live/public/kiss",
+            "playlist_pls_url": "https://moxstudio.live/public/kiss/playlist.pls",
+            "playlist_m3u_url": "https://moxstudio.live/public/kiss/playlist.m3u",
+            "is_public": true,
+            "mounts": [
+                {
+                    "id": 41,
+                    "name": "/radio.mp3 (192kbps MP3)",
+                    "url": "https://moxstudio.live:8020/radio.mp3",
+                    "bitrate": 192,
+                    "format": "mp3",
+                    "listeners": {
+                        "total": 0,
+                        "unique": 0,
+                        "current": 0
+                    },
+                    "path": "/radio.mp3",
+                    "is_default": true
+                }
+            ],
+            "remotes": [],
+            "hls_enabled": false,
+            "hls_is_default": false,
+            "hls_url": null,
+            "hls_listeners": 0
+        },
+        "listeners": {
+            "total": 0,
+            "unique": 0,
+            "current": 0
+        },
+        "live": {
+            "is_live": false,
+            "streamer_name": "",
+            "broadcast_start": null,
+            "art": null
+        },
+        "now_playing": {
+            "sh_id": 3270780,
+            "played_at": 1733849801,
+            "duration": 184,
+            "playlist": "default",
+            "streamer": "",
+            "is_request": false,
+            "song": {
+                "id": "6b7da2fcb67b6ebb804fa6945c1b63a1",
+                "art": "https://moxstudio.live/api/station/kiss/art/fab4fb6fb7970e577d7cded8-1719767519.jpg",
+                "custom_fields": [],
+                "text": "Jay Wheeler Ft. Feid - Cuando Fue (BY GabrielPauta) (Www.FlowHot.Net)",
+                "artist": "Jay Wheeler Ft. Feid",
+                "title": "Cuando Fue (BY GabrielPauta) (Www.FlowHot.Net)",
+                "album": "(Www.FlowHot.Net)",
+                "genre": "Reggaeton",
+                "isrc": "",
+                "lyrics": ""
+            },
+            "elapsed": 167,
+            "remaining": 17
+        },
+        "playing_next": {
+            "cued_at": 1733849785,
+            "played_at": 1733849977,
+            "duration": 269,
+            "playlist": "default",
+            "is_request": false,
+            "song": {
+                "id": "e9813f2a952e27a85e2d648c214e605c",
+                "art": "https://moxstudio.live/api/station/kiss/art/c6304894e55942bd7e3514c1-1719767746.jpg",
+                "custom_fields": [],
+                "text": "Ryan Castro Ft. Ñengo Flow Y Myke Towers - Jordan (Remix) (By Brayanparra)",
+                "artist": "Ryan Castro Ft. Ñengo Flow Y Myke Towers",
+                "title": "Jordan (Remix) (By Brayanparra)",
+                "album": "El Cantante Del Ghetto - Www.Fuleteoplus.Com",
+                "genre": "Latin Music",
+                "isrc": "",
+                "lyrics": ""
+            }
+        },
+        "song_history": [],
+        "is_online": true,
+        "cache": null
+    },
+    {
+        "station": {
+            "id": 23,
+            "name": "-",
+            "shortcode": "_gmc_radio",
+            "description": "Radio Online",
+            "frontend": "icecast",
+            "backend": "liquidsoap",
+            "timezone": "America/Bogota",
+            "listen_url": "https://moxstudio.live:8110/radio.mp3",
+            "url": "https://www.gmcradio.com/",
+            "public_player_url": "https://moxstudio.live/public/_gmc_radio",
+            "playlist_pls_url": "https://moxstudio.live/public/_gmc_radio/playlist.pls",
+            "playlist_m3u_url": "https://moxstudio.live/public/_gmc_radio/playlist.m3u",
+            "is_public": true,
+            "mounts": [
+                {
+                    "id": 43,
+                    "name": "/radio.mp3 (192kbps MP3)",
+                    "url": "https://moxstudio.live:8110/radio.mp3",
+                    "bitrate": 192,
+                    "format": "mp3",
+                    "listeners": {
+                        "total": 1,
+                        "unique": 1,
+                        "current": 1
+                    },
+                    "path": "/radio.mp3",
+                    "is_default": true
+                }
+            ],
+            "remotes": [
+                {
+                    "id": 7,
+                    "name": "WWW.GMCRADIO.COM",
+                    "url": "https://stream.zeno.fm/lf74omn7vdouv",
+                    "bitrate": 128,
+                    "format": "mp3",
+                    "listeners": {
+                        "total": 0,
+                        "unique": 0,
+                        "current": 0
+                    }
+                }
+            ],
+            "hls_enabled": false,
+            "hls_is_default": false,
+            "hls_url": null,
+            "hls_listeners": 0
+        },
+        "listeners": {
+            "total": 1,
+            "unique": 1,
+            "current": 1
+        },
+        "live": {
+            "is_live": false,
+            "streamer_name": "",
+            "broadcast_start": null,
+            "art": null
+        },
+        "now_playing": {
+            "sh_id": 3270785,
+            "played_at": 1733849904,
+            "duration": 168,
+            "playlist": "Cumbias Argentinas Y Chilenas",
+            "streamer": "",
+            "is_request": false,
+            "song": {
+                "id": "e3e088be38d03b36661954017cae77fd",
+                "art": "https://moxstudio.live/api/station/_gmc_radio/art/67293a9d4691eecb69b802d8-1721187096.jpg",
+                "custom_fields": [],
+                "text": "Organización X - Mas vale ser soltero",
+                "artist": "Organización X",
+                "title": "Mas vale ser soltero",
+                "album": "La X Contraataca",
+                "genre": "Latino",
+                "isrc": "ARF060802119",
+                "lyrics": ""
+            },
+            "elapsed": 64,
+            "remaining": 104
+        },
+        "playing_next": {
+            "cued_at": 1733849899,
+            "played_at": 1733850067,
+            "duration": 194,
+            "playlist": "Cumbias Argentinas Y Chilenas",
+            "is_request": false,
+            "song": {
+                "id": "4350eaf3e4dca4f6d684c53fe3588ab8",
+                "art": "https://moxstudio.live/api/station/_gmc_radio/art/f7e925208c549b8b2ac9336a-1721187044.jpg",
+                "custom_fields": [],
+                "text": "Mr. Gato - Chiquilina",
+                "artist": "Mr. Gato",
+                "title": "Chiquilina",
+                "album": "Cumbia para Rato",
+                "genre": "Cumbia; Latino",
+                "isrc": "ES71G1762319",
+                "lyrics": ""
+            }
+        },
+        "song_history": [],
+        "is_online": true,
+        "cache": null
+    }
+]
