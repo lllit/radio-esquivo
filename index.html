@@ -12,31 +12,48 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
 
+    <script src="https://cdn.jsdelivr.net/npm/lucide@latest/dist/umd/lucide.min.js"></script>
 </head>
 
 <body>
 
+
+    <nav class="navbar">
+        <div class="navbar__logo">
+            <img src="assets/logo.png" alt="Radio Esquivo Logo">
+        </div>
+        
+    </nav>
+
+
     <section class="cnt__general">
 
-        
+
 
 
         <div class="img__fondo" id="img__fondo">
             <div class="lamina"></div>
         </div>
+
         <div class="wsp">
             <a href="#">
                 <i class="fa-brands fa-whatsapp"></i>
             </a>
         </div>
+
+
         <div class="cnt__info">
 
-            
-            <div class="img__logo">
+
+            <!-- <div class="img__logo">
                 <img class="img__logo__icon" src="assets/static.png" alt="logo">
-                <img class="img__logo_png" src="assets/logo.png" alt="logo transparente">
+                <div class="contenedor_img">
+                    <img class="img__logo_png" src="assets/logo.png" alt="logo transparente">
+                </div>
+                
                 <div class="imgs__apps">
                     <div class="imgs__icon">
                         <a href="#">
@@ -49,7 +66,7 @@
                         </a>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <div class="img__album">
                 <img id="img__album" src="" alt="imagen de album" width="250" class="animate__animated">
@@ -70,47 +87,53 @@
 
 
 
-        
 
 
-        
+
+
         <div class="redes">
             <ul>
                 <li>
                     <a href="">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
-                    
+
                 </li>
                 <li>
                     <a href="">
                         <i class="fa-brands fa-youtube"></i>
                     </a>
-                    
+
                 </li>
                 <li>
                     <a href="">
                         <i class="fa-brands fa-soundcloud"></i>
                     </a>
-                    
+
                 </li>
                 <li>
                     <a href="">
                         <i class="fa-brands fa-spotify"></i>
                     </a>
-                    
+
                 </li>
             </ul>
         </div>
 
     </section>
 
-    
+
 
 
     <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
 
     <script src="js/main.js"></script>
+    <script>
+        lucide.createIcons();
+        document.querySelector('.navbar__toggle').addEventListener('click', function () {
+            document.querySelector('.navbar__links').classList.toggle('navbar__links--active');
+        });
+    </script>
 </body>
 
 </html>

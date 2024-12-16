@@ -1,6 +1,9 @@
 :root {
     --bg: #231f20;
-    --text-principal: #efe6dd;
+    --text-principal: #f0f0f0;
+    --navbar-bg: #333;
+    --navbar-text: #796d6d;
+    --navbar-hover: #555;
 }
 
 body,
@@ -8,13 +11,42 @@ html {
     padding: 0;
     margin: 0;
 
-    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: var(--bg);
     color: var(--text-principal);
     overflow-y: auto;
     overflow-x: hidden !important;
     box-sizing: border-box;
 }
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-right: 1rem;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+
+    box-sizing: border-box;
+    /* From https://css.glass */
+    background: rgba(35, 31, 32, 0.19);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+
+}
+
+.navbar__logo img {
+    width: 5rem;
+}
+
+
+
+
+
 
 .cnt__general {
     width: 100%;
@@ -51,7 +83,6 @@ html {
 
     /* From https://css.glass */
     background: rgba(35, 31, 32, 0.72);
-    border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(12.6px);
     -webkit-backdrop-filter: blur(12.6px);
@@ -61,21 +92,6 @@ html {
 
 }
 
-@keyframes zoom-in-zoom-out {
-
-    0% {
-        transform: scale(0.99, 0.99);
-    }
-
-    50% {
-        transform: scale(1, 1);
-    }
-
-    100% {
-        transform: scale(0.99, 0.99);
-    }
-
-}
 
 ::-webkit-scrollbar {
     width: 8px;
@@ -172,21 +188,25 @@ html {
     left: 1rem;
     right: 1rem;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     gap: 0;
 
 }
+
 
 .img__logo_png {
     width: 19rem;
     height: auto;
     object-fit: contain;
     background: none;
+    align-items: center;
+
+
 }
 
-.img__logo .img__logo__icon{
-    width: 6rem;
+.img__logo .img__logo__icon {
+    width: 3rem;
 }
 
 
@@ -333,6 +353,7 @@ html {
     #img__album {
         width: 10rem;
     }
+
     .img__logo .img__logo__icon {
         width: 100px;
     }
@@ -342,8 +363,8 @@ html {
 
 
 @media screen and (max-width:810px) {
-    .img__logo_png{
-        width: 16rem;
+    .img__logo_png {
+        width: 5rem;
     }
 }
 
@@ -351,9 +372,8 @@ html {
     .img__logo .img__logo__icon {
         display: none;
     }
-    .img__logo_png{
 
-    }
+    .img__logo_png {}
 }
 
 @media screen and (max-height: 300px) {
@@ -406,7 +426,8 @@ html {
     #img__album {
         width: 10rem;
     }
-    .img__logo .img__logo__icon{
+
+    .img__logo .img__logo__icon {
         width: 170px;
     }
 }
